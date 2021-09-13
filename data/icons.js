@@ -1,7 +1,3 @@
-function getImg(name) {
-  return require(`../images/icons/${name}`).default;
-}
-
 export const icons = {
   "Ace": {
     icon: <i className="far fa-window-restore icon-blue" />,
@@ -124,7 +120,7 @@ export const icons = {
     website: "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   "IDLE": {
-    icon: <img className="img-icon" src={getImg("python.png")} alt="" />,
+    icon: <img className="img-icon" src="img/icons/python.png" alt="" />,
     website: "https://docs.python.org/3/library/idle.html"
   },
   "Java": {
@@ -140,11 +136,11 @@ export const icons = {
     website: "https://reactjs.org/docs/introducing-jsx.html"
   },
   "MonoGame": {
-    icon: <img className="img-icon" src={getImg("monogame.png")} alt="" />,
+    icon: <img className="img-icon" src="img/icons/monogame.png" alt="" />,
     website: "https://www.monogame.net"
   },
   "Netlify": {
-    icon: <img className="img-icon" src={getImg("netlify.png")} alt="" />,
+    icon: <img className="img-icon" src="img/icons/netlify.png" alt="" />,
     website: "https://www.netlify.com"
   },
   "Next.js": {
@@ -172,7 +168,7 @@ export const icons = {
     website: "https://www.pygame.org"
   },
   "Python": {
-    icon: <img className="img-icon" src={getImg("python.png")} alt="" />,
+    icon: <img className="img-icon" src="img/icons/python.png" alt="" />,
     website: "https://www.python.org"
   },
   "Random Word API": {
@@ -212,7 +208,7 @@ export const icons = {
     website: "https://unity.com"
   },
   "Vercel": {
-    icon: <img className="img-icon" src={getImg("vercel.png")} alt="" />,
+    icon: <img className="img-icon" src="img/icons/vercel.png" alt="" />,
     website: "https://vercel.com"
   },
   "Visual Studio": {
