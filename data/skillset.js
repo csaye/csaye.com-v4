@@ -22,22 +22,25 @@ export const skillset = [
     ]
   },
   {
-    title: "Software",
+    title: "Web Development",
     icon: <i className="fas fa-laptop" />,
-    icons: [
-      "Unity",
-      "Aseprite",
-      "FL Studio",
-      "VSCode",
-      "Visual Studio",
-      "Atom",
-      "IDLE",
-      "Audacity",
-      "BFXR",
-      "GIMP",
-      "Brackets",
-      "Blender",
-      "Trello"
+    subsections: [
+      {
+        title: "Frameworks",
+        icons: ["React", "Next.js"]
+      },
+      {
+        title: "Languages",
+        icons: ["JavaScript", "TypeScript", "HTML", "CSS"]
+      },
+      {
+        title: "Backend",
+        icons: ["Node.js", "Firebase"]
+      },
+      {
+        title: "Deployment",
+        icons: ["Vercel", "Netlify"]
+      }
     ]
   },
   {
