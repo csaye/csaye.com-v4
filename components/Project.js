@@ -1,25 +1,23 @@
 import Image from 'next/image';
 import Icon from './Icon.js';
 
+import styles from '../styles/components/Project.module.css';
+
 export default function Project(props) {
   const { name, description, link, image, buttons, icons } = props;
 
   return (
-    <div>
-      <h1>{name}</h1>
-      <p>{description}</p>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+    <div className={styles.container}>
+      <div className={styles.image}>
         <Image
-          src={`img/projects/${image}`}
-          width="256"
-          height="128"
+          src={`/img/projects/${image}`}
+          layout="fill"
+          objectFit="cover"
           alt={image}
         />
-      </a>
+      </div>
+      <h1>{name}</h1>
+      <p>{description}</p>
       <div>
         {
           buttons.map((button, i) =>
