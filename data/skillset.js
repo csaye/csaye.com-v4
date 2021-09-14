@@ -1,6 +1,6 @@
 export const skillset = [
   {
-    title: "Game Development",
+    title: "Games",
     icon: <i className="fas fa-code" />,
     subsections: [
       {
@@ -22,7 +22,7 @@ export const skillset = [
     ]
   },
   {
-    title: "Web Development",
+    title: "Web",
     icon: <i className="fas fa-laptop" />,
     subsections: [
       {

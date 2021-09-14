@@ -25,6 +25,7 @@ export default function Action() {
       case 'PushEvent': return <>Pushed to GitHub repository<i className="fas fa-arrow-up" /></>;
       case 'PublicEvent': return <>Made GitHub repository public<i className="fas fa-unlock" /></>;
       case 'CreateEvent': return <>Created GitHub repository<i className="fas fa-plus" /></>;
+      case 'WatchEvent': return <>Starred GitHub repository<i className="fas fa-star" /></>;
       default: return type;
     }
   }
