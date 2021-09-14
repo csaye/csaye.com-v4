@@ -17,3 +17,43 @@ a {
 button {
   cursor: pointer;
 }
+
+.icon-red {
+  color: red;
+}
+
+.icon-orange {
+  color: orange;
+}
+
+.icon-yellow {
+  color: #d4bf08;
+}
+
+.icon-green {
+  color: green;
+}
+
+.icon-blue {
+  color: #007bff;
+}
+
+.icon-purple {
+  color: purple;
+}
+
+.icon-black {
+  color: black;
+}
+
+.icon-gray {
+  color: dimgray;
+}
+
+.icon-brown {
+  color: #654321;
+}
+
+.icon-pink {
+  color: #c71585;
+}
