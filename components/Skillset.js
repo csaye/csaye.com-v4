@@ -11,11 +11,20 @@ export default function Skillset() {
           skillset.map((section, i) =>
             <div key={i}>
               <h1>{section.title} {section.icon}</h1>
-              {
-                section.icons.map((icon, j) =>
-                  <Icon icon={icon} key={j} />
-                )
-              }
+              <div>
+                {
+                  section.subsections.map((subsection, j) =>
+                    <div key={j}>
+                      <h2>{subsection.title}</h2>
+                      {
+                        subsection.icons.map((icon, k) =>
+                          <Icon icon={icon} key={k} />
+                        )
+                      }
+                    </div>
+                  )
+                }
+              </div>
             </div>
           )
         }
