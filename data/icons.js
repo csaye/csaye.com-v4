@@ -107,6 +107,10 @@ export const icons = {
     icon: <i className="fab fa-github icon-black" />,
     website: "https://docs.github.com"
   },
+  "Godot": {
+    icon: <i className="fab devicon-godot-plain icon-blue" />,
+    website: "https://godotengine.org"
+  },
   "Haskell": {
     icon: <i className="fab devicon-haskell-plain icon-purple" />,
     website: "https://www.haskell.org"
@@ -120,7 +124,7 @@ export const icons = {
     website: "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   "IDLE": {
-    icon: <img className="img-icon" src="img/icons/python.png" alt="" />,
+    icon: <i className="fab fa-python icon-blue" />,
     website: "https://docs.python.org/3/library/idle.html"
   },
   "Java": {
@@ -136,11 +140,11 @@ export const icons = {
     website: "https://reactjs.org/docs/introducing-jsx.html"
   },
   "MonoGame": {
-    icon: <img className="img-icon" src="img/icons/monogame.png" alt="" />,
+    icon: <i className="fas fa-gamepad icon-red" />,
     website: "https://www.monogame.net"
   },
   "Netlify": {
-    icon: <img className="img-icon" src="img/icons/netlify.png" alt="" />,
+    icon: <i className="fas fa-cloud-upload-alt icon-blue" />,
     website: "https://www.netlify.com"
   },
   "Next.js": {
@@ -168,7 +172,7 @@ export const icons = {
     website: "https://www.pygame.org"
   },
   "Python": {
-    icon: <img className="img-icon" src="img/icons/python.png" alt="" />,
+    icon: <i className="fab fa-python icon-blue" />,
     website: "https://www.python.org"
   },
   "Random Word API": {
@@ -208,7 +212,7 @@ export const icons = {
     website: "https://unity.com"
   },
   "Vercel": {
-    icon: <img className="img-icon" src="img/icons/vercel.png" alt="" />,
+    icon: <i className="fas fa-caret-square-up icon-black" />,
     website: "https://vercel.com"
   },
   "Visual Studio": {
