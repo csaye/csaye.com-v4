@@ -2,14 +2,16 @@ import Icon from './Icon.js';
 
 import { skillset } from '../data/skillset.js';
 
+import styles from '../styles/components/Skillset.module.css';
+
 export default function Skillset() {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Skillset</h1>
-      <div>
+      <div className={styles.sections}>
         {
           skillset.map((section, i) =>
-            <div key={i}>
+            <div className={styles.section} key={i}>
               <h1>{section.title} {section.icon}</h1>
               <div>
                 {
