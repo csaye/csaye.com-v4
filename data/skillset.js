@@ -1,21 +1,24 @@
 export const skillset = [
   {
-    title: "Languages",
+    title: "Game Development",
     icon: <i className="fas fa-code" />,
-    icons: [
-      "C#",
-      "JavaScript",
-      "Python",
-      "Java",
-      "C++",
-      "Bash",
-      "HTML",
-      "CSS",
-      "Sass",
-      "TypeScript",
-      "CoffeeScript",
-      "Node.js",
-      "JSX"
+    subsections: [
+      {
+        title: "Engines & Frameworks",
+        icons: ["Unity", "MonoGame", "Pygame", "Godot"]
+      },
+      {
+        title: "Languages",
+        icons: ["C#", "Python", "C++", "Java"]
+      },
+      {
+        title: "Art",
+        icons: ["Aseprite", "GIMP"]
+      },
+      {
+        title: "Sound & Music",
+        icons: ["FL Studio", "Audacity", "BFXR"]
+      }
     ]
   },
   {
