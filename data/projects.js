@@ -27,6 +27,74 @@ export const projects = [
     type: "web"
   },
   {
+    name: "Codetrain",
+    description: "An educational browser game engine.",
+    link: "https://codetrain.org",
+    image: "",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://codetrain.org"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/pygolf"
+      }
+    ],
+    icons: [
+      "React",
+      "Next.js",
+      "Firebase",
+      "JavaScript",
+      "Vercel",
+      "CSS Modules",
+      "Atom"
+    ],
+    type: "web"
+  },
+  {
+    name: "CodeConvoy",
+    description: "Escorting you to a future in coding.",
+    link: "https://codeconvoy.org",
+    image: "",
+    buttons: [
+      {
+        label: "Website",
+        link: "https://codeconvoy.org"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/codeconvoy"
+      }
+    ],
+    icons: [],
+    type: "other"
+  },
+  {
+    name: "Pygolf",
+    description: "Create and share Python code golf challenges.",
+    link: "",
+    image: "pygolf.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: ""
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/pygolf"
+      }
+    ],
+    icons: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "CSS Modules",
+      "Atom"
+    ],
+    type: "web"
+  },
+  {
     name: "Pixel Engine",
     description: "A minimalist online game engine.",
     link: "https://pixele.vercel.app",
