@@ -1,4 +1,4 @@
-import Contact from '../components/Contact.js';
+import Contacts from '../components/Contacts.js';
 import Action from '../components/Action.js';
 import Skillset from '../components/Skillset.js';
 import Projects from '../components/Projects.js';
@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <div>
       <h1>Cooper Saye</h1>
-      <Contact />
+      <Contacts />
       <Action />
       <Skillset />
       <Projects />
