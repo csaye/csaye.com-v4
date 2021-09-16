@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Icon from './Icon.js';
+import IconSmall from './IconSmall.js';
 
 import styles from '../styles/components/Project.module.css';
 
@@ -32,10 +32,11 @@ export default function Project(props) {
           )
         }
       </div>
-      <div>
+      <span className={styles.filler} />
+      <div className={styles.icons}>
         {
           icons.map((icon, i) =>
-            <Icon key={i} icon={icon} />
+            <IconSmall key={i} icon={icon} />
           )
         }
       </div>

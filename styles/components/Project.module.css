@@ -4,6 +4,8 @@
   border-radius: 10px;
   overflow: hidden;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .image {
@@ -11,4 +13,18 @@
   height: 180px;
   position: relative;
   background: #000;
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.icons > div {
+  margin: 5px;
 }
