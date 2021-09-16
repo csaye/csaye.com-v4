@@ -2,6 +2,8 @@ import Tooltip from '@material-ui/core/Tooltip';
 
 import { icons } from '../data/icons.js';
 
+import styles from '../styles/components/IconSmall.module.css';
+
 export default function IconSmall(props) {
   const { icon } = props;
 
@@ -9,9 +11,15 @@ export default function IconSmall(props) {
   if (!icons[icon]) return <div>{icon} not found</div>;
 
   return (
-    <div>
+    <div className={styles.container}>
       <Tooltip title={icon} arrow>
-        {icons[icon].icon}
+        <a
+          href={icons[icon].website}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {icons[icon].icon}
+        </a>
       </Tooltip>
     </div>
   );
