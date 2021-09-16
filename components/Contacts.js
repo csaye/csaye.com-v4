@@ -9,7 +9,7 @@ export default function Contacts() {
       <div className={styles.contacts}>
         {
           contacts.map((contact, i) =>
-            <div key={i}>
+            <div className={styles.contact} key={i}>
               {
                 contact.email &&
                 <a href={`mailto:${contact.email}`}>

@@ -7,3 +7,27 @@
   align-items: center;
   justify-content: center;
 }
+
+.contact {
+  width: 80px;
+  text-align: center;
+  background: #efefef;
+  transition: 0.25s;
+  font-size: 14px;
+  margin: 0 5px;
+  overflow: auto;
+}
+
+.contact:hover {
+  transform: scale(1.25);
+}
+
+.contact i {
+  margin: 0;
+  font-size: 32px;
+  width: 100%;
+}
+
+.contact p {
+  margin: 0;
+}
