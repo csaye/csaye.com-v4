@@ -1,5 +1,7 @@
 import { icons } from '../data/icons.js';
 
+import styles from '../styles/components/Icon.module.css';
+
 export default function Icon(props) {
   const { icon } = props;
 
@@ -7,7 +9,7 @@ export default function Icon(props) {
   if (!icons[icon]) return <div>{icon} not found</div>;
 
   return (
-    <div>
+    <div className={styles.container}>
       <a
         href={icons[icon].website}
         target="_blank"
