@@ -9,16 +9,18 @@ export default function Project(props) {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <Image
-          src={`/img/projects/${image}`}
-          layout="fill"
-          objectFit="cover"
-          alt={image}
-        />
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <Image
+            src={`/img/projects/${image}`}
+            layout="fill"
+            objectFit="cover"
+            alt={image}
+          />
+        </a>
       </div>
       <h1>{name}</h1>
       <p>{description}</p>
-      <div>
+      <div className={styles.buttons}>
         {
           buttons.map((button, i) =>
             <a
