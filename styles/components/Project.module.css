@@ -16,11 +16,11 @@
 }
 
 .container > h1 {
-  margin: 5px 10px;
+  margin: 10px 20px;
 }
 
 .container > p {
-  margin: 0 10px;
+  margin: 5px 20px;
 }
 
 .buttons {
@@ -30,15 +30,16 @@
 .buttons > a {
   color: #efefef;
   display: inline-block;
-  background: #2196f3;
-  padding: 10px;
+  background: var(--blue1);
+  border: 3px solid var(--blue2);
+  padding: 10px 20px;
   margin: 5px;
   border-radius: 10px;
   transition: 0.25s;
 }
 
 .buttons > a:hover {
-  background: #007bff;
+  background: var(--blue2);
 }
 
 .filler {
@@ -48,7 +49,7 @@
 .icons {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px;
+  margin: 15px;
 }
 
 .icons > div {

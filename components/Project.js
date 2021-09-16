@@ -8,16 +8,16 @@ export default function Project(props) {
 
   return (
     <div className={styles.container}>
-      <div className={styles.image}>
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <Image
-            src={`/img/projects/${image}`}
-            layout="fill"
-            objectFit="cover"
-            alt={image}
-          />
-        </a>
-      </div>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <div className={styles.image}>
+            <Image
+              src={`/img/projects/${image}`}
+              layout="fill"
+              objectFit="cover"
+              alt={image}
+            />
+        </div>
+      </a>
       <h1>{name}</h1>
       <p>{description}</p>
       <div className={styles.buttons}>
