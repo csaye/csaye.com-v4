@@ -1,0 +1,9 @@
+.container > h1 {
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
