@@ -1,6 +1,8 @@
 import Head from 'next/head';
 
 import '../styles/globals.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'devicon';
 
 export default function App(props) {
   const { Component, pageProps } = props;
