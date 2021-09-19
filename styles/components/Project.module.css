@@ -8,6 +8,27 @@
   flex-direction: column;
   background: #fff;
   transition: 0.25s;
+  position: relative;
+}
+
+.type {
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 0 5px #333;
+  background: #fff;
+  padding: 5px 25px;
+  top: -2px;
+  right: -23px;
+  transform: rotate(45deg);
+}
+
+.type > i {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
 }
 
 .image {

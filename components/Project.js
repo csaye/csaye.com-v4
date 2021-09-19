@@ -4,20 +4,25 @@ import IconSmall from './IconSmall.js';
 import styles from '../styles/components/Project.module.css';
 
 export default function Project(props) {
-  const { name, description, link, image, buttons, icons } = props;
+  const { name, description, link, image, buttons, icons, type } = props;
 
   return (
     <div className={styles.container}>
+      <div className={styles.type}>
+        {type === 'web' && <i className="fas fa-laptop-code icon-blue" />}
+        {type === 'game' && <i className="fas fa-dice-five icon-green" />}
+        {type === 'other' && <i className="fas fa-plus icon-red" />}
+      </div>
       <a href={link} target="_blank" rel="noopener noreferrer">
         <div className={styles.image}>
-            <Image
-              src={`/img/projects/${image}`}
-              layout="fill"
-              objectFit="cover"
-              placeholder="blur"
-              blurDataURL={`/img/projects/${image}`}
-              alt={image}
-            />
+          <Image
+            src={`/img/projects/${image}`}
+            layout="fill"
+            objectFit="cover"
+            placeholder="blur"
+            blurDataURL={`/img/projects/${image}`}
+            alt={image}
+          />
         </div>
       </a>
       <h1>{name}</h1>
