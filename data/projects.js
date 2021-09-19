@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Devcomms",
-    description: "Text chat with built-in developer widgets.",
+    description: "Text chat with built-in developer widgets. Built to help coordinate a team of developers through a centralized tool.",
     link: "https://devcomms.io",
     image: "devcomms2.png",
     buttons: [
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     name: "Codetrain",
-    description: "An educational browser game engine.",
+    description: "An educational browser game engine. Learn JavaScript while building and exploring a community of games.",
     link: "https://codetrain.org",
     image: "codetrain.png",
     buttons: [
@@ -54,7 +54,7 @@ export const projects = [
   },
   {
     name: "CodeConvoy",
-    description: "Escorting you to a future in coding.",
+    description: "Escorting you to a future in coding. An organization founded to make coding more accessible and fun.",
     link: "https://codeconvoy.org",
     image: "codeconvoy.png",
     buttons: [
@@ -72,7 +72,7 @@ export const projects = [
   },
   {
     name: "Pygolf",
-    description: "Create and share Python code golf challenges.",
+    description: "Create and share Python code golf challenges. Uses Python Shell to compile Python in the backend.",
     link: "",
     image: "pygolf.png",
     buttons: [
@@ -96,7 +96,7 @@ export const projects = [
   },
   {
     name: "Pixel Engine",
-    description: "A minimalist online game engine.",
+    description: "A minimalist online game engine. Write games directly in the browser and export as a HTML file.",
     link: "https://pixele.vercel.app",
     image: "pixele.png",
     buttons: [
@@ -123,7 +123,7 @@ export const projects = [
   },
   {
     name: "Symbl",
-    description: "An interpreted symbol-based language inspired by BF.",
+    description: "An interpreted symbol-based language inspired by BF. An experiment in esoteric programming languages and simplistic data communication.",
     link: "https://github.com/csaye/symbl",
     image: "symbl.png",
     buttons: [
@@ -145,7 +145,7 @@ export const projects = [
   },
   {
     name: "SleekScript",
-    description: "A pythonic language that compiles to JavaScript.",
+    description: "A pythonic language that compiles to JavaScript. Compiles in the browser. Inspired by CoffeeScript.",
     link: "https://csaye.com/sleekscript",
     image: "sleekscript.png",
     buttons: [
@@ -169,7 +169,7 @@ export const projects = [
   },
   {
     name: "GameScript",
-    description: "A wrapper for common Pygame functions.",
+    description: "A wrapper for common Pygame functions. Built to prevent code rewriting for each new Pygame project.",
     link: "https://github.com/csaye/gamescript",
     image: "gamescript.png",
     buttons: [
@@ -191,7 +191,7 @@ export const projects = [
   },
   {
     name: "Daytrip",
-    description: "Explore any area with a randomly generated one day trip.",
+    description: "Explore any area with a randomly generated one day trip. Uses the Yelp API to look up activities and FullCalendar to manage scheduling.",
     link: "https://daytrip.vercel.app",
     image: "daytrip.png",
     buttons: [
@@ -218,7 +218,7 @@ export const projects = [
   },
   {
     name: "MapMake",
-    description: "A collaborative, online tilemap editor.",
+    description: "A collaborative, online tilemap editor. Built to help coordinate tilemap creation on team game projects.",
     link: "https://csaye.com/mapmake",
     image: "mapmake.png",
     buttons: [
@@ -242,7 +242,7 @@ export const projects = [
   },
   {
     name: "MonoBuild",
-    description: "A command-line tool for cross-platform building in MonoGame.",
+    description: "A command-line tool for cross-platform building in MonoGame. Built for a lack of a simple MonoGame compilation tool.",
     link: "https://github.com/csaye/monobuild",
     image: "monobuild.png",
     buttons: [
@@ -263,7 +263,7 @@ export const projects = [
   },
   {
     name: "Devcomms Legacy",
-    description: "Team communication and coordination all in one place.",
+    description: "Team communication and coordination all in one place. Old version of the project, written in vanilla React.",
     link: "https://devcomms.io",
     image: "devcomms.png",
     buttons: [
@@ -289,7 +289,7 @@ export const projects = [
   },
   {
     name: "FlexScript",
-    description: "A programming language that compiles into multiple languages.",
+    description: "A programming language that compiles into multiple languages. Compiles into C#, C++, Python, Java, and JavaScript. Built in Python.",
     link: "https://github.com/csaye/flexscript",
     image: "flexscript.png",
     buttons: [
@@ -315,7 +315,7 @@ export const projects = [
   },
   {
     name: "ImgScript",
-    description: "An image-based programming language.",
+    description: "An image-based programming language. An experiment in esoteric programming languages.",
     link: "https://github.com/csaye/imgscript",
     image: "imgscript.png",
     buttons: [
@@ -336,7 +336,7 @@ export const projects = [
   },
   {
     name: "Calendar",
-    description: "Event scheduling in a simple interface.",
+    description: "Event scheduling in a simple interface. Uses Firebase for authentication and data storage.",
     link: "https://csaye.com/calendar",
     image: "calendar.png",
     buttons: [
@@ -360,7 +360,7 @@ export const projects = [
   },
   {
     name: "SimpleStore",
-    description: "File storage simplified.",
+    description: "File storage simplified. Features file uploading and folder creation. Uses Firebase for authentication and file storage.",
     link: "https://csaye.com/simple-store",
     image: "storage.png",
     buttons: [
@@ -384,7 +384,7 @@ export const projects = [
   },
   {
     name: "Mono3D",
-    description: "A 3D raycasting engine built in MonoGame.",
+    description: "A 3D raycasting engine built in MonoGame. An extension of Mono2D. Features flying and position statistics.",
     link: "https://github.com/csaye/mono3d",
     image: "grid.png",
     buttons: [
@@ -406,7 +406,7 @@ export const projects = [
   },
   {
     name: "Mono2D",
-    description: "A 2D raycasting engine built in MonoGame.",
+    description: "A 2D raycasting engine built in MonoGame. My first major project in MonoGame, a C# game framework.",
     link: "https://github.com/csaye/mono2d",
     image: "pillars.png",
     buttons: [
@@ -428,7 +428,7 @@ export const projects = [
   },
   {
     name: "Meta Python",
-    description: "Python written in Python.",
+    description: "Python written in Python. An experiment in code lexing and parsing.",
     link: "https://github.com/csaye/meta-python",
     image: "meta.png",
     buttons: [
@@ -445,7 +445,7 @@ export const projects = [
   },
   {
     name: "Widget Wall",
-    description: "A webpage with a collection of useful widgets.",
+    description: "A webpage with a collection of useful widgets. Uses Firebase for backend and connects with several APIs, including Datamuse and Bit.ly.",
     link: "https://csaye.com/widget-wall",
     image: "widgets.png",
     buttons: [
@@ -473,7 +473,7 @@ export const projects = [
   },
   {
     name: "Python Highlights",
-    description: "Highlights from my personal Python projects.",
+    description: "Highlights from my personal Python projects. Features many experiments built with Pygame.",
     link: "https://github.com/csaye/python-highlights",
     image: "highlights.png",
     buttons: [
@@ -491,7 +491,7 @@ export const projects = [
   },
   {
     name: "MinScript",
-    description: "A minimalist programming language written in Python.",
+    description: "A minimalist programming language written in Python. My first experimental programming language.",
     link: "https://github.com/csaye/minscript",
     image: "minscript.png",
     buttons: [
@@ -508,7 +508,7 @@ export const projects = [
   },
   {
     name: "Countdown Tracker",
-    description: "A countdown tracker tool.",
+    description: "A countdown tracker tool. Uses Firebase for backend and features a toggleable background.",
     link: "https://csaye.com/countdown-tracker",
     image: "countdown2.png",
     buttons: [
@@ -532,7 +532,7 @@ export const projects = [
   },
   {
     name: "Bicycle",
-    description: "A minimalist social media placing its users first.",
+    description: "A minimalist social media placing its users first. My first major web project, uses Firebase for authentication and data storage.",
     link: "https://bicycle.social",
     image: "bicycle.png",
     buttons: [
@@ -556,7 +556,7 @@ export const projects = [
   },
   {
     name: "Playlist Bot",
-    description: "Randomly generate Spotify playlists.",
+    description: "Randomly generate Spotify playlists. Uses the Spotify API to search songs and save playlists.",
     link: "https://csaye.com/playlist-bot",
     image: "playlist.png",
     buttons: [
@@ -580,7 +580,7 @@ export const projects = [
   },
   {
     name: "Deserted",
-    description: "Forage, build, and innovate on your new island. A creative, ambient survival game.",
+    description: "Forage, build, and innovate on your new island. A creative, ambient survival game. Built with a friend in Unity over the course of 3 months.",
     link: "https://csaye.itch.io/deserted",
     image: "deserted.png",
     buttons: [
@@ -610,7 +610,7 @@ export const projects = [
   },
   {
     name: "Ticket Tracker",
-    description: "A ticket tracker tool.",
+    description: "A ticket tracker tool. My first use of a backend in web development, uses Firebase to store users and ticket data.",
     link: "https://csaye.com/ticket-tracker",
     image: "tickets.png",
     buttons: [
@@ -634,7 +634,7 @@ export const projects = [
   },
   {
     name: "Coding Challenges",
-    description: "A collection of common coding challenges in various languages.",
+    description: "A collection of common coding challenges in various languages. Features challenges in C#, C++, Python, Java, and JavaScript.",
     link: "https://github.com/csaye/coding-challenges",
     image: "challenges.png",
     buttons: [
@@ -654,7 +654,7 @@ export const projects = [
   },
   {
     name: "Jamming",
-    description: "A spotify playlist builder.",
+    description: "A spotify playlist builder. My first integration with an API, uses the Spotify API to search songs and save playlists.",
     link: "https://csaye.com/jamming",
     image: "jamming.png",
     buttons: [
@@ -678,7 +678,7 @@ export const projects = [
   },
   {
     name: "Countdown",
-    description: "A lightweight, downloadable countdown tracker.",
+    description: "A lightweight, downloadable countdown tracker. Features color schemes. Built in Unity.",
     link: "https://csaye.itch.io/countdown",
     image: "countdown.png",
     buttons: [
@@ -700,7 +700,7 @@ export const projects = [
   },
   {
     name: "2048 Live",
-    description: "\"2048\" controlled through real-time object detection.",
+    description: "\"2048\" controlled through real-time object detection. My first major project in C++, uses OpenCV for camera and SDL2 for drawing.",
     link: "https://github.com/csaye/2048-live",
     image: "2048.png",
     buttons: [
@@ -719,7 +719,7 @@ export const projects = [
   },
   {
     name: "Sorting Visualization",
-    description: "An interactive visualization tool for eight common sorting algorithms.",
+    description: "An interactive visualization tool for eight common sorting algorithms. Uses Unity WebGL to run in the browser.",
     link: "https://csaye.itch.io/sorting-visualization",
     image: "sorting.png",
     buttons: [
@@ -741,7 +741,7 @@ export const projects = [
   },
   {
     name: "Chess",
-    description: "Play chess against a basic AI.",
+    description: "Play chess against a basic AI. Built to experiment with the implementations of chess rules.",
     link: "https://csaye.itch.io/chess",
     image: "chess.png",
     buttons: [
@@ -764,7 +764,7 @@ export const projects = [
   },
   {
     name: "A* Visualization",
-    description: "An interactive step-by-step visualization of the A* pathfinding algorithm.",
+    description: "An interactive step-by-step visualization of the A* pathfinding algorithm. Uses Unity WebGL to run in the browser.",
     link: "https://csaye.itch.io/a-star-visualization",
     image: "astar.png",
     buttons: [
@@ -787,7 +787,7 @@ export const projects = [
   },
   {
     name: "Diapixel",
-    description: "A minimal 2D and 3D diagramming tool built in a day.",
+    description: "A minimal 2D and 3D diagramming tool built in a day. Mainly built to experiment with 3D movement in Unity.",
     link: "https://csaye.itch.io/diapixel",
     image: "diapixel.png",
     buttons: [
@@ -810,7 +810,7 @@ export const projects = [
   },
   {
     name: "Computeroid",
-    description: "Crash the computer — a top-down puzzle game with a retro computer theme.",
+    description: "Crash the computer — a top-down puzzle game with a retro computer theme. My first major game project, built in Unity over 2 months.",
     link: "https://csaye.itch.io/computeroid",
     image: "computeroid.png",
     buttons: [
