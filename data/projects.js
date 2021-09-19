@@ -30,7 +30,7 @@ export const projects = [
     name: "Codetrain",
     description: "An educational browser game engine.",
     link: "https://codetrain.org",
-    image: "",
+    image: "codetrain.png",
     buttons: [
       {
         label: "Try it out",
@@ -56,7 +56,7 @@ export const projects = [
     name: "CodeConvoy",
     description: "Escorting you to a future in coding.",
     link: "https://codeconvoy.org",
-    image: "",
+    image: "codeconvoy.png",
     buttons: [
       {
         label: "Website",
