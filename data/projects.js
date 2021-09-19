@@ -581,11 +581,16 @@ export const projects = [
   {
     name: "Deserted",
     description: "Forage, build, and innovate on your new island. A creative, ambient survival game.",
-    video: "https://www.youtube.com/embed/g8Ckftlqdfg",
+    link: "https://csaye.itch.io/deserted",
+    image: "deserted.png",
     buttons: [
       {
         label: "Available Now",
         link: "https://csaye.itch.io/deserted"
+      },
+      {
+        label: "Trailer",
+        link: "https://youtu.be/g8Ckftlqdfg"
       },
       {
         label: "Soundtrack",
@@ -643,9 +648,7 @@ export const projects = [
       "Python",
       "Java",
       "C++",
-      "JavaScript",
-      "C",
-      "Haskell"
+      "JavaScript"
     ],
     type: "other"
   },
@@ -698,7 +701,8 @@ export const projects = [
   {
     name: "2048 Live",
     description: "\"2048\" controlled through real-time object detection.",
-    video: "https://www.youtube.com/embed/plsA6wMOhsY",
+    link: "https://github.com/csaye/2048-live",
+    image: "2048.png",
     buttons: [
       {
         label: "GitHub",
