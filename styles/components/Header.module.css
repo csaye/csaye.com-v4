@@ -1,0 +1,26 @@
+.container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--white);
+  height: 60px;
+  box-shadow: 0 0 5px #333;
+  display: flex;
+  align-items: center;
+}
+
+.container > div {
+  margin-left: 8px!important;
+}
+
+.container > button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.container > button:hover {
+  color: var(--blue);
+}
