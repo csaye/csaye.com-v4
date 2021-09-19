@@ -12,12 +12,8 @@ export const skillset = [
         icons: ["C#", "Python", "C++", "Java"]
       },
       {
-        title: "Art",
-        icons: ["Aseprite", "GIMP"]
-      },
-      {
         title: "Sound & Music",
-        icons: ["FL Studio", "Audacity", "BFXR"]
+        icons: ["FL Studio", "Audacity"]
       }
     ]
   },
@@ -35,7 +31,7 @@ export const skillset = [
       },
       {
         title: "Backend",
-        icons: ["Node.js", "Firebase"]
+        icons: ["Firebase", "Node.js"]
       },
       {
         title: "Deployment",
@@ -52,8 +48,16 @@ export const skillset = [
         icons: ["VSCode", "Atom", "Visual Studio", "IDLE"]
       },
       {
+        title: "Art",
+        icons: ["Aseprite", "GIMP"]
+      },
+      {
         title: "Organization",
         icons: ["GitHub", "Trello"]
+      },
+      {
+        title: "Command Line",
+        icons: ["Bash", "Shell"]
       }
     ]
   }
