@@ -14,6 +14,8 @@ export default function Project(props) {
               src={`/img/projects/${image}`}
               layout="fill"
               objectFit="cover"
+              placeholder="blur"
+              blurDataURL={`/img/projects/${image}`}
               alt={image}
             />
         </div>
