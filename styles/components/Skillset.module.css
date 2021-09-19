@@ -24,7 +24,7 @@
   margin: 20px;
   background: var(--gray);
   border-radius: 30px;
-  box-shadow: 0 0 6px #999;
+  box-shadow: 0 0 4px #999;
   padding: 10px 0;
   transition: 0.25s;
   cursor: pointer;

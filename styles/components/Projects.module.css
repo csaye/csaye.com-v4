@@ -9,4 +9,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
 }
