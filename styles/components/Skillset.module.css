@@ -1,5 +1,16 @@
+.container {
+  background: #121212;
+  transform: skewY(3deg);
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
 .container > h1 {
   text-align: center;
+  color: var(--gray);
+  font-weight: 900;
+  font-size: 64px;
+  margin: 0 0 20px 0;
 }
 
 .sections {
@@ -10,13 +21,27 @@
 
 .section {
   width: 300px;
-  margin: 10px;
-  background: var(--gray0);
-  border-radius: 10px;
+  margin: 20px;
+  background: var(--gray);
+  border-radius: 30px;
+  box-shadow: 0 0 6px #999;
+  padding: 10px 0;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.section:hover {
+  transform: skewY(-3deg) scale(1.1);
+  box-shadow: 0 0 20px #999;
 }
 
 .section > h1 {
   text-align: center;
+  margin: 10px 0;
+}
+
+.section a:hover {
+  color: #2196f3;
 }
 
 .subsection {
@@ -26,7 +51,8 @@
 .subsection > .subtitle {
   width: 50%;
   text-align: right;
-  padding: 5px;
+  padding: 8px;
+  font-weight: bold;
 }
 
 .subsection > .icons {
@@ -36,15 +62,15 @@
 }
 
 .subsection > .icons > div {
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 .subsection > .icons:after {
   content: "";
   background: black;
   position: absolute;
-  bottom: 4px;
-  top: 4px;
+  bottom: 8px;
+  top: 8px;
   left: -1px;
   width: 2px;
 }
