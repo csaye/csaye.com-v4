@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html, body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
   background: var(--gray);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -24,6 +25,10 @@ button {
   --black: #121212;
   --blue: #2196f3;
   --purple: #3f51b5;
+}
+
+.flexfill {
+  flex-grow: 1;
 }
 
 .icon-red {

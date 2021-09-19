@@ -17,4 +17,5 @@
 
 .container > p {
   margin: 10px 0;
+  color: var(--black);
 }
