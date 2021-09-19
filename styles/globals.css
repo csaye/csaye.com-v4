@@ -5,8 +5,8 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--gray);
 }
 
 a {
@@ -19,13 +19,11 @@ button {
 }
 
 :root {
-  --gray0: #efefef;
-  --gray1: #999999;
-  --gray2: #555555;
-  --gray3: #333333;
-  --blue0: #007bff;
-  --blue1: #2196f3;
-  --blue2: #3f51b5;
+  --white: #ffffff;
+  --gray: #efefef;
+  --black: #121212;
+  --blue: #2196f3;
+  --purple: #3f51b5;
 }
 
 .icon-red {
