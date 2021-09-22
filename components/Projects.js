@@ -19,6 +19,13 @@ export default function Projects() {
     setTypes(newTypes);
   }
 
+  // returns sorting value for given projects and term
+  function sortProjects(a, b) {
+    if (sortBy === 'date') return 1;
+    else if (sortBy === 'name') return a.name < b.name ? -1 : 1;
+    else if (sortBy === 'commits') return a.commits > b.commits ? -1 : 1;
+  }
+
   return (
     <div className={styles.container}>
       <h1>Projects</h1>
@@ -52,6 +59,7 @@ export default function Projects() {
         {
           projects
           .filter(project => types.includes(project.type))
+          .sort(sortProjects)
           .map((project, i) =>
             <Project {...project} key={i} />
           )
