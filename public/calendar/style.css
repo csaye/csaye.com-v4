@@ -1,0 +1,32 @@
+* {
+  word-break: break-word;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+.calendar-box {
+  width: calc((100% - 30px * 7) / 7);
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+  transition: 0.25s;
+}
+
+.calendar-box:hover {
+  transform: scale(1.03);
+}
