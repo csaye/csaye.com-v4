@@ -1,6 +1,7 @@
 import Project from './Project.js';
 
 import { projects } from '../data/projects.js';
+import { useState } from 'react';
 
 import styles from '../styles/components/Projects.module.css';
 
@@ -8,6 +9,7 @@ const defaultTypes = ['game', 'web', 'other'];
 
 export default function Projects() {
   const [types, setTypes] = useState(defaultTypes);
+  const [sortBy, setSortBy] = useState('date');
 
   // updates types with given type and action
   function updateTypes(type, include) {
@@ -37,6 +39,14 @@ export default function Projects() {
             )
           }
         </div>
+        <label>
+          Sort by{' '}
+          <select value={sortBy} onChange={e => setSortBy(e.target.value)}>
+            <option value="date">Date</option>
+            <option value="name">Name</option>
+            <option value="commits">Commits</option>
+          </select>
+        </label>
       </div>
       <div className={styles.projects}>
         {
