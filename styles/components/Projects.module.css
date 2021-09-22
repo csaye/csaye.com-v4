@@ -12,3 +12,28 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.types {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.types label, .types input {
+  cursor: pointer;
+}
+
+.notype {
+  color: #999;
+}
+
+.options select {
+  cursor: pointer;
+}
