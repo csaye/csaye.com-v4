@@ -12,7 +12,7 @@ export const icons = {
     website: "https://angular.io"
   },
   "Aseprite": {
-    icon: <i className="fas fa-pencil-alt icon-brown" />,
+    icon: <i className="fas fa-pencil-alt icon-purple" />,
     website: "https://www.aseprite.org"
   },
   "Atom": {
@@ -124,7 +124,7 @@ export const icons = {
     website: "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   "IDLE": {
-    icon: <i className="fab fa-python icon-blue" />,
+    icon: <i className="fab fa-python icon-yellow" />,
     website: "https://docs.python.org/3/library/idle.html"
   },
   "Java": {

@@ -1,7 +1,7 @@
 export const skillset = [
   {
     title: "Games",
-    icon: <i className="fas fa-code" />,
+    icon: <i className="fas fa-dice-five" />,
     subsections: [
       {
         title: "Engines & Frameworks",
@@ -9,7 +9,7 @@ export const skillset = [
       },
       {
         title: "Languages",
-        icons: ["C#", "Python", "C++", "Java"]
+        icons: ["C#", "Python", "Java", "C++"]
       },
       {
         title: "Sound & Music",

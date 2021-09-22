@@ -9,7 +9,7 @@ export default function Project(props) {
   return (
     <div className={styles.container}>
       <div className={styles.type}>
-        {type === 'web' && <i className="fas fa-laptop-code icon-blue" />}
+        {type === 'web' && <i className="fas fa-laptop icon-blue" />}
         {type === 'game' && <i className="fas fa-dice-five icon-green" />}
         {type === 'other' && <i className="fas fa-plus icon-red" />}
       </div>
