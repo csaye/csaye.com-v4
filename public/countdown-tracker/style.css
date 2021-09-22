@@ -1,0 +1,93 @@
+/* general */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* button */
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* x button */
+
+.x-button {
+  padding: 0;
+  width: 20px;
+}
+
+/* card */
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 147px;
+  box-shadow: 0 1px 3px #333;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+@media (min-width: 576px) {
+  .card {
+    width: calc((100% / 2) - 40px);
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: calc((100% / 3) - 40px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: calc((100% / 4) - 40px);
+  }
+}
+
+/* center form */
+
+.center-form-title {
+  margin: 0 0 5px 0;
+  margin-top: -8px!important;
+  text-align: center;
+}
+
+.center-form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-form input {
+  width: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  border: 2px solid #333;
+}
+
+.center-form .title-input {
+  padding: 2px 0;
+}
+
+.center-form button {
+  margin: 5px 0 0 0;
+}
