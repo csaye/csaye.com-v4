@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sleekscript/static/css/main.d14d6173.chunk.css",
+    "main.js": "/sleekscript/static/js/main.bd5c42e8.chunk.js",
+    "main.js.map": "/sleekscript/static/js/main.bd5c42e8.chunk.js.map",
+    "runtime-main.js": "/sleekscript/static/js/runtime-main.69c06cbc.js",
+    "runtime-main.js.map": "/sleekscript/static/js/runtime-main.69c06cbc.js.map",
+    "static/css/2.3ceb25c6.chunk.css": "/sleekscript/static/css/2.3ceb25c6.chunk.css",
+    "static/js/2.7ccbf3c4.chunk.js": "/sleekscript/static/js/2.7ccbf3c4.chunk.js",
+    "static/js/2.7ccbf3c4.chunk.js.map": "/sleekscript/static/js/2.7ccbf3c4.chunk.js.map",
+    "index.html": "/sleekscript/index.html",
+    "static/css/2.3ceb25c6.chunk.css.map": "/sleekscript/static/css/2.3ceb25c6.chunk.css.map",
+    "static/css/main.d14d6173.chunk.css.map": "/sleekscript/static/css/main.d14d6173.chunk.css.map",
+    "static/js/2.7ccbf3c4.chunk.js.LICENSE.txt": "/sleekscript/static/js/2.7ccbf3c4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69c06cbc.js",
+    "static/css/2.3ceb25c6.chunk.css",
+    "static/js/2.7ccbf3c4.chunk.js",
+    "static/css/main.d14d6173.chunk.css",
+    "static/js/main.bd5c42e8.chunk.js"
+  ]
+}
