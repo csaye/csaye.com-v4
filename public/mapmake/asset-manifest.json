@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mapmake/static/css/main.9d58279c.chunk.css",
+    "main.js": "/mapmake/static/js/main.5d8f9455.chunk.js",
+    "main.js.map": "/mapmake/static/js/main.5d8f9455.chunk.js.map",
+    "runtime-main.js": "/mapmake/static/js/runtime-main.56b45543.js",
+    "runtime-main.js.map": "/mapmake/static/js/runtime-main.56b45543.js.map",
+    "static/css/2.23154d62.chunk.css": "/mapmake/static/css/2.23154d62.chunk.css",
+    "static/js/2.3ce829d9.chunk.js": "/mapmake/static/js/2.3ce829d9.chunk.js",
+    "static/js/2.3ce829d9.chunk.js.map": "/mapmake/static/js/2.3ce829d9.chunk.js.map",
+    "static/js/3.b4597620.chunk.js": "/mapmake/static/js/3.b4597620.chunk.js",
+    "static/js/3.b4597620.chunk.js.map": "/mapmake/static/js/3.b4597620.chunk.js.map",
+    "index.html": "/mapmake/index.html",
+    "static/css/2.23154d62.chunk.css.map": "/mapmake/static/css/2.23154d62.chunk.css.map",
+    "static/css/main.9d58279c.chunk.css.map": "/mapmake/static/css/main.9d58279c.chunk.css.map",
+    "static/js/2.3ce829d9.chunk.js.LICENSE.txt": "/mapmake/static/js/2.3ce829d9.chunk.js.LICENSE.txt",
+    "static/media/logo.e6b36c6a.png": "/mapmake/static/media/logo.e6b36c6a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56b45543.js",
+    "static/css/2.23154d62.chunk.css",
+    "static/js/2.3ce829d9.chunk.js",
+    "static/css/main.9d58279c.chunk.css",
+    "static/js/main.5d8f9455.chunk.js"
+  ]
+}

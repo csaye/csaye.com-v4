@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:not([type]) {
+  border: 0;
+  padding: 2px 3px;
+  border-radius: 3px;
+  outline: none;
+  background: #36393f;
+  color: #ddd;
+}
+
+.loading-text {
+  color: #ddd;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.error-text {
+  color: red;
+}
+
+.clean-btn {
+  border: 0;
+  border-radius: 2px;
+  background: #36393f;
+  color: #ddd;
+}
+
+.clean-btn:hover {
+  background: #2f3136;
+}
