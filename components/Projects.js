@@ -7,6 +7,16 @@ import styles from '../styles/components/Projects.module.css';
 const defaultTypes = ['game', 'web', 'other'];
 
 export default function Projects() {
+  const [types, setTypes] = useState(defaultTypes);
+
+  // updates types with given type and action
+  function updateTypes(type, include) {
+    const newTypes = types.slice();
+    if (include) newTypes.push(type);
+    else newTypes.splice(newTypes.indexOf(type), 1);
+    setTypes(newTypes);
+  }
+
   return (
     <div className={styles.container}>
       <h1>Projects</h1>
@@ -30,7 +40,9 @@ export default function Projects() {
       </div>
       <div className={styles.projects}>
         {
-          projects.map((project, i) =>
+          projects
+          .filter(project => types.includes(project.type))
+          .map((project, i) =>
             <Project {...project} key={i} />
           )
         }
