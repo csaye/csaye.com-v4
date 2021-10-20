@@ -26,7 +26,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 328
+    commits: 334
   },
   {
     name: "Codetrain",
@@ -54,7 +54,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 186
+    commits: 368
   },
   {
     name: "CodeConvoy",
