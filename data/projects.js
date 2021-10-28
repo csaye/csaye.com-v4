@@ -1,5 +1,33 @@
 export const projects = [
   {
+    name: "Brainwave",
+    description: "Rich and centralized idea development. Built to help teams brainstorm ideas on a synchronized sketchboard.",
+    link: "https://brainwave.vercel.app",
+    image: "brainwave.png",
+    github: "codeconvoy/brainwave",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://brainwave.vercel.app"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/codeconvoy/brainwave"
+      }
+    ],
+    icons: [
+      "React",
+      "Next.js",
+      "Firebase",
+      "JavaScript",
+      "Vercel",
+      "CSS Modules",
+      "Atom"
+    ],
+    type: "web",
+    commits: 179
+  },
+  {
     name: "Devcomms",
     description: "Text chat with built-in developer widgets. Built to help coordinate a team of developers through a centralized tool.",
     link: "https://devcomms.io",
@@ -54,7 +82,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 368
+    commits: 422
   },
   {
     name: "CodeConvoy",
@@ -74,7 +102,7 @@ export const projects = [
     ],
     icons: ["React", "Next.js", "JavaScript", "Vercel", "CSS Modules", "Atom"],
     type: "other",
-    commits: 29
+    commits: 30
   },
   {
     name: "Pygolf",
