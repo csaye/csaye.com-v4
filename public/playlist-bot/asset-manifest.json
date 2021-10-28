@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/playlist-bot/static/css/main.2c194309.chunk.css",
+    "main.js": "/playlist-bot/static/js/main.06622aa4.chunk.js",
+    "main.js.map": "/playlist-bot/static/js/main.06622aa4.chunk.js.map",
+    "runtime-main.js": "/playlist-bot/static/js/runtime-main.f1cee04a.js",
+    "runtime-main.js.map": "/playlist-bot/static/js/runtime-main.f1cee04a.js.map",
+    "static/js/2.f5fd414b.chunk.js": "/playlist-bot/static/js/2.f5fd414b.chunk.js",
+    "static/js/2.f5fd414b.chunk.js.map": "/playlist-bot/static/js/2.f5fd414b.chunk.js.map",
+    "static/js/3.d755acf9.chunk.js": "/playlist-bot/static/js/3.d755acf9.chunk.js",
+    "static/js/3.d755acf9.chunk.js.map": "/playlist-bot/static/js/3.d755acf9.chunk.js.map",
+    "index.html": "/playlist-bot/index.html",
+    "static/css/main.2c194309.chunk.css.map": "/playlist-bot/static/css/main.2c194309.chunk.css.map",
+    "static/js/2.f5fd414b.chunk.js.LICENSE.txt": "/playlist-bot/static/js/2.f5fd414b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1cee04a.js",
+    "static/js/2.f5fd414b.chunk.js",
+    "static/css/main.2c194309.chunk.css",
+    "static/js/main.06622aa4.chunk.js"
+  ]
+}
