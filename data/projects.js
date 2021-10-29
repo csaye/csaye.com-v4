@@ -85,26 +85,6 @@ export const projects = [
     commits: 422
   },
   {
-    name: "CodeConvoy",
-    description: "Escorting you to a future in coding. An organization founded to make coding more accessible and fun.",
-    link: "https://codeconvoy.org",
-    image: "codeconvoy.png",
-    github: "codeconvoy/codeconvoy.org",
-    buttons: [
-      {
-        label: "Website",
-        link: "https://codeconvoy.org"
-      },
-      {
-        label: "GitHub",
-        link: "https://github.com/codeconvoy"
-      }
-    ],
-    icons: ["React", "Next.js", "JavaScript", "Vercel", "CSS Modules", "Atom"],
-    type: "other",
-    commits: 30
-  },
-  {
     name: "Pygolf",
     description: "Create and share Python code golf challenges. Uses Python Shell to compile Python in the backend.",
     link: "https://github.com/csaye/pygolf",
