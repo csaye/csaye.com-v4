@@ -4,6 +4,7 @@ import Contacts from '../components/Contacts.js';
 import Skillset from '../components/Skillset.js';
 import Projects from '../components/Projects.js';
 import Footer from '../components/Footer.js';
+import Featured from '../components/Featured.js';
 
 import { useRef } from 'react';
 
@@ -27,6 +28,7 @@ export default function Index() {
       <Header scrollTo={scrollTo} />
       <About />
       <Contacts />
+      <Featured />
       <span ref={skillsetRef} />
       <Skillset />
       <span ref={projectsRef} className={styles.projectsref} />
