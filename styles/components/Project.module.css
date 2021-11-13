@@ -1,6 +1,7 @@
 .container {
-  width: 300px;
-  margin: 20px;
+  flex-basis: 271px;
+  max-width: 300px;
+  flex-grow: 1;
   margin: 16px;
   border-radius: 10px;
   overflow: hidden;
