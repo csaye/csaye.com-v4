@@ -35,19 +35,21 @@ export default function Project(props) {
       </a>
       <h1>{name}</h1>
       <p>{description}</p>
-      <div className={styles.buttons}>
-        {
-          buttons.map((button, i) =>
-            <a
-              href={button.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={i}
-            >
-              {button.label}
-            </a>
-          )
-        }
+      <div className={styles.buttonsdiv}>
+        <div className={styles.buttons}>
+          {
+            buttons.map((button, i) =>
+              <a
+                href={button.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={i}
+              >
+                {button.label}
+              </a>
+            )
+          }
+        </div>
       </div>
       <span className={styles.filler} />
       <div className={styles.icons}>
