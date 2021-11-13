@@ -8,6 +8,7 @@ export default function Header(props) {
   return (
     <div className={styles.container}>
       <Image
+        onClick={() => scrollTo('home')}
         src="/img/logo.png"
         width="48"
         height="48"

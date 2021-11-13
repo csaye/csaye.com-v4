@@ -13,7 +13,7 @@ export default function Skillset() {
           skillset.map((section, i) =>
             <div className={styles.section} key={i}>
               <h1>{section.title} {section.icon}</h1>
-              <div className={styles.subsections}>
+              <div>
                 {
                   section.subsections.map((subsection, j) =>
                     <div className={styles.subsection} key={j}>
