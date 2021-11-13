@@ -55,15 +55,17 @@ export default function Projects() {
           </select>
         </label>
       </div>
-      <div className={styles.projects}>
-        {
-          projects
-          .filter(project => types.includes(project.type))
-          .sort(sortProjects)
-          .map((project, i) =>
-            <Project {...project} key={i} />
-          )
-        }
+      <div className={styles.content}>
+        <div className={styles.projects}>
+          {
+            projects
+            .filter(project => types.includes(project.type))
+            .sort(sortProjects)
+            .map((project, i) =>
+              <Project {...project} key={i} />
+            )
+          }
+        </div>
       </div>
     </div>
   );
