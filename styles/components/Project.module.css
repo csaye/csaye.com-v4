@@ -1,7 +1,5 @@
 .container {
-  flex-basis: 271px;
-  max-width: 300px;
-  flex-grow: 1;
+  width: 300px;
   margin: 16px;
   border-radius: 10px;
   overflow: hidden;
@@ -105,4 +103,23 @@
 
 .icons > div {
   margin: 5px;
+}
+
+@media
+  (min-width: 688px) and (max-width: 728px),
+  (min-width: 1000px) and (max-width: 1060px),
+  (min-width: 1312px) and (max-width: 1392px)
+{
+  .container {
+    width: 280px;
+  }
+  .icons > div {
+    margin: 5px 4px;
+  }
+  .image {
+    height: 160px;
+  }
+  .buttonsdiv {
+    margin: 0 12px;
+  }
 }
