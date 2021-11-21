@@ -34,7 +34,7 @@
   transition: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .container {
     width: 300px;
     margin: 0 auto;

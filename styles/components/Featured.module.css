@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 687px) {
-  .projects > div {
+  .container {
     display: none;
   }
 }
