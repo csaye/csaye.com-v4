@@ -26,6 +26,10 @@
   color: var(--black);
 }
 
+.container a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 500px) {
   .container > h1 {
     font-size: 56px;
