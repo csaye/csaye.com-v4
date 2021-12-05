@@ -2,13 +2,13 @@ export const projects = [
   {
     name: "Brainwave",
     description: "Rich and centralized idea development. Built to help teams brainstorm ideas on a synchronized sketchboard.",
-    link: "https://brainwave.vercel.app",
+    link: "https://brainwave.team",
     image: "brainwave.png",
     github: "codeconvoy/brainwave",
     buttons: [
       {
         label: "Try it out",
-        link: "https://brainwave.vercel.app"
+        link: "https://brainwave.team"
       },
       {
         label: "GitHub",
@@ -25,7 +25,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 236
+    commits: 240
   },
   {
     name: "Devcomms",
@@ -54,7 +54,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 340
+    commits: 342
   },
   {
     name: "Codetrain",
@@ -82,7 +82,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 426,
+    commits: 561,
     featured: true
   },
   {
@@ -105,7 +105,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 72
+    commits: 74
   },
   {
     name: "Pixel Engine",
