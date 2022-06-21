@@ -4,7 +4,7 @@ export const projects = [
     description: "Rich and centralized idea development. Built to help teams brainstorm ideas on a synchronized sketchboard.",
     link: "https://brainwave.team",
     image: "brainwave.png",
-    github: "codeconvoy/brainwave",
+    github: "CodeConvoy/brainwave",
     buttons: [
       {
         label: "Try it out",
@@ -12,7 +12,7 @@ export const projects = [
       },
       {
         label: "GitHub",
-        link: "https://github.com/codeconvoy/brainwave"
+        link: "https://github.com/CodeConvoy/brainwave"
       }
     ],
     icons: [
@@ -32,7 +32,7 @@ export const projects = [
     description: "Text chat with built-in developer widgets. Built to help coordinate teams of developers through a centralized tool.",
     link: "https://devcomms.io",
     image: "devcomms2.png",
-    github: "codeconvoy/devcomms",
+    github: "CodeConvoy/devcomms",
     buttons: [
       {
         label: "Try it out",
@@ -40,7 +40,7 @@ export const projects = [
       },
       {
         label: "GitHub",
-        link: "https://github.com/codeconvoy/devcomms"
+        link: "https://github.com/CodeConvoy/devcomms"
       }
     ],
     icons: [
@@ -61,7 +61,7 @@ export const projects = [
     description: "A retro browser game engine. Learn JavaScript while building games and exploring a community of projects.",
     link: "https://codetrain.org",
     image: "codetrain.png",
-    github: "codeconvoy/codetrain",
+    github: "CodeWithGames/codetrain",
     buttons: [
       {
         label: "Try it out",
@@ -69,7 +69,7 @@ export const projects = [
       },
       {
         label: "GitHub",
-        link: "https://github.com/codeconvoy/codetrain"
+        link: "https://github.com/CodeWithGames/codetrain"
       }
     ],
     icons: [
@@ -88,13 +88,13 @@ export const projects = [
   {
     name: "Pygolf",
     description: "Create and share Python code golf challenges. Uses Python Shell to compile scripts in the backend.",
-    link: "https://github.com/csaye/pygolf",
+    link: "https://github.com/CodeWithGames/pygolf",
     image: "pygolf.png",
     github: "csaye/pygolf",
     buttons: [
       {
         label: "GitHub",
-        link: "https://github.com/csaye/pygolf"
+        link: "https://github.com/CodeWithGames/pygolf"
       }
     ],
     icons: [
@@ -112,7 +112,7 @@ export const projects = [
     description: "A minimalist online game engine. Write games directly in the browser and export as an HTML file.",
     link: "https://pixele.vercel.app",
     image: "pixele.png",
-    github: "csaye/pixel-engine",
+    github: "CodeWithGames/pixel-engine",
     buttons: [
       {
         label: "Try it out",
@@ -120,7 +120,7 @@ export const projects = [
       },
       {
         label: "GitHub",
-        link: "https://github.com/csaye/pixel-engine"
+        link: "https://github.com/CodeWithGames/pixel-engine"
       }
     ],
     icons: [
