@@ -1,13 +1,8 @@
 export const contacts = [
   {
-    icon: <i className="fas fa-envelope icon-blue" />,
+    icon: <i className="fas fa-envelope icon-red" />,
     text: "Email",
     email: "cooper@saye.co"
-  },
-  {
-    icon: <i className="fab fa-youtube icon-red" />,
-    text: "YouTube",
-    link: "https://www.youtube.com/channel/UCRQa3KuskvvNFz1c-YleSnA",
   },
   {
     icon: <i className="fab fa-github icon-black" />,
@@ -15,14 +10,19 @@ export const contacts = [
     link: "https://github.com/csaye"
   },
   {
-    icon: <i className="fab fa-twitter icon-blue" />,
-    text: "Twitter",
-    link: "https://twitter.com/csaye_"
+    icon: <i className="fab fa-linkedin icon-blue" />,
+    text: "LinkedIn",
+    link: "https://www.linkedin.com/in/coopersaye/",
   },
   {
     icon: <i className="fab fa-soundcloud icon-orange" />,
     text: "SoundCloud",
     link: "https://soundcloud.com/csaye"
+  },
+  {
+    icon: <i className="fab fa-twitter icon-blue" />,
+    text: "Twitter",
+    link: "https://twitter.com/csaye_"
   },
   {
     icon: <i className="fab fa-itch-io icon-red" />,
