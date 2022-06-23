@@ -10,8 +10,8 @@ export default function Header(props) {
       <Image
         onClick={() => scrollTo('home')}
         src="/img/logo.png"
-        width="48"
-        height="48"
+        width="64"
+        height="64"
         quality="100"
         alt="logo.png"
         priority

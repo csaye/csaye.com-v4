@@ -3,14 +3,14 @@
   top: 0;
   z-index: 10;
   background: var(--white);
-  height: 60px;
+  height: 80px;
   box-shadow: 0 0 5px #333;
   display: flex;
   align-items: center;
 }
 
 .container > div {
-  margin-left: 8px!important;
+  margin-left: 12px!important;
   flex-shrink: 0;
   cursor: pointer;
 }
@@ -26,4 +26,8 @@
 
 .container > button:hover {
   color: var(--blue);
+}
+
+.container > button:last-of-type {
+  margin-right: 28px;
 }
