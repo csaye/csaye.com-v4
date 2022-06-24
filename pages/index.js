@@ -8,8 +8,6 @@ import Featured from '../components/Featured.js';
 
 import { useRef } from 'react';
 
-import styles from '../styles/pages/Index.module.css';
-
 export default function Index() {
   const skillsetRef = useRef();
   const projectsRef = useRef();
