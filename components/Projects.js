@@ -7,7 +7,9 @@ import styles from '../styles/components/Projects.module.css';
 
 const defaultTypes = ['game', 'web', 'other'];
 
-export default function Projects() {
+export default function Projects(props) {
+  const { projectsRef } = props;
+
   const [types, setTypes] = useState(defaultTypes);
   const [sortBy, setSortBy] = useState('date');
 
@@ -28,6 +30,10 @@ export default function Projects() {
 
   return (
     <div className={styles.container}>
+      <span ref={projectsRef} style={{
+        position: 'relative', display: 'block',
+        bottom: '100px', left: '50%'
+      }} />
       <h1>Projects</h1>
       <div className={styles.options}>
         <div className={styles.types}>
