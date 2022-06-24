@@ -4,9 +4,15 @@ import { skillset } from '../data/skillset.js';
 
 import styles from '../styles/components/Skillset.module.css';
 
-export default function Skillset() {
+export default function Skillset(props) {
+  const { skillsetRef } = props;
+
   return (
     <div className={styles.container}>
+      <span ref={skillsetRef} style={{
+        position: 'relative', display: 'block',
+        bottom: '110px', left: '50%'
+      }} />
       <h1>Skillset</h1>
       <div className={styles.sections}>
         {
