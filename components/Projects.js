@@ -10,6 +10,7 @@ const defaultTypes = ['game', 'web', 'other'];
 export default function Projects(props) {
   const { projectsRef } = props;
 
+  const [featured, setFeatured] = useState(false);
   const [types, setTypes] = useState(defaultTypes);
   const [sortBy, setSortBy] = useState('date');
 
@@ -28,6 +29,10 @@ export default function Projects(props) {
     else if (sortBy === 'commits') return a.commits > b.commits ? -1 : 1;
   }
 
+  const filteredProjects = projects
+  .filter(project => featured ? project.featured : true)
+  .filter(project => types.includes(project.type));
+
   return (
     <div className={styles.container}>
       <span ref={projectsRef} style={{
@@ -36,6 +41,13 @@ export default function Projects(props) {
       }} />
       <h1>Projects</h1>
       <div className={styles.options}>
+        <label className={styles.featured}>
+          <input
+            type="checkbox"
+            checked={featured}
+            onChange={e => setFeatured(e.target.checked)}
+          />★
+        </label>
         <div className={styles.types}>
           {
             defaultTypes.map((type, i) =>
@@ -60,12 +72,14 @@ export default function Projects(props) {
             <option value="commits">Commits</option>
           </select>
         </label>
+        <span className={styles.projectcount}>
+          ({filteredProjects.length})
+        </span>
       </div>
       <div className={styles.content}>
         <div className={styles.projects}>
           {
-            projects
-            .filter(project => types.includes(project.type))
+            filteredProjects
             .sort(sortProjects)
             .map((project, i) =>
               <Project {...project} key={i} />
