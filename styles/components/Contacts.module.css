@@ -5,8 +5,7 @@
 }
 
 .contact {
-  width: 70px;
-  margin: 0 5px;
+  margin: 0 10px;
   text-align: center;
   transition: 0.25s;
 }
@@ -24,8 +23,10 @@
 
 .contact i {
   margin: 0;
-  font-size: 48px;
+  font-size: 64px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .contact p {
@@ -41,7 +42,16 @@
     margin: 0 auto;
     flex-wrap: wrap;
   }
+
+  .contact {
+    width: 70px;
+  }
+
   .contact:nth-of-type(1), .contact:nth-of-type(2), .contact:nth-of-type(3) {
     margin-bottom: 10px;
+  }
+
+  .contact:nth-of-type(3), .contact:nth-of-type(6) {
+    width: 64px;
   }
 }
