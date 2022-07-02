@@ -5,7 +5,7 @@ import styles from '../styles/components/Project.module.css';
 
 export default function Project(props) {
   const {
-    name, description, link, image, buttons, icons, type, featured
+    name, description, link, image, buttons, icons, type, featured, fontSize
   } = props;
 
   return (
@@ -33,7 +33,7 @@ export default function Project(props) {
           />
         </div>
       </a>
-      <h1>{name}</h1>
+      <h1 style={ fontSize ? { fontSize } : null }>{name}</h1>
       <p>{description}</p>
       <div className={styles.buttonsdiv}>
         <div className={styles.buttons}>
