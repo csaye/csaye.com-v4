@@ -24,6 +24,18 @@
   margin-bottom: 12px;
 }
 
+.projectcount {
+  margin-left: 8px;
+}
+
+.featured {
+  margin-right: 8px;
+}
+
+.featured, .featured input {
+  cursor: pointer;
+}
+
 .types {
   display: flex;
   flex-direction: column;
