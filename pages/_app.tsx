@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
-import '../styles/globals.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'devicon';
+import '../styles/globals.scss';
 
 // meta information
 const title = "Cooper Saye";
