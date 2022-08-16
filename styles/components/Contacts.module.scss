@@ -2,56 +2,60 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.contact {
-  margin: 0 10px;
-  text-align: center;
-  transition: 0.25s;
-}
+  .contact {
+    margin: 0 10px;
+    text-align: center;
+    transition: 0.25s;
 
-.contact:hover {
-  transform: scale(1.1);
-  color: #2196f3;
-}
+    @media (max-width: 550px) {
+      width: 70px;
+    }
 
-.contact a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+    @media (max-width: 550px) {
 
-.contact i {
-  margin: 0;
-  font-size: 64px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+      &:nth-of-type(1),
+      &:nth-of-type(2),
+      &:nth-of-type(3) {
+        margin-bottom: 10px;
+      }
 
-.contact p {
-  font-size: 12px;
-  margin: 0;
-  transition: 0;
-}
+      &:nth-of-type(3),
+      &:nth-of-type(6) {
+        width: 64px;
+      }
+    }
 
-@media (max-width: 550px) {
-  .container {
+    &:hover {
+      transform: scale(1.1);
+      color: #2196f3;
+    }
+
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    i {
+      margin: 0;
+      font-size: 64px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      font-size: 12px;
+      margin: 0;
+      transition: 0;
+    }
+  }
+
+  @media (max-width: 550px) {
     width: 300px;
     max-width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
-  }
-
-  .contact {
-    width: 70px;
-  }
-
-  .contact:nth-of-type(1), .contact:nth-of-type(2), .contact:nth-of-type(3) {
-    margin-bottom: 10px;
-  }
-
-  .contact:nth-of-type(3), .contact:nth-of-type(6) {
-    width: 64px;
   }
 }
