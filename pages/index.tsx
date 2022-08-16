@@ -1,9 +1,9 @@
-import Header from '../components/Header.js';
-import About from '../components/About.js';
-import Contacts from '../components/Contacts.js';
-import Skillset from '../components/Skillset.js';
-import Projects from '../components/Projects.js';
-import Footer from '../components/Footer.js';
+import About from '../components/About';
+import Contacts from '../components/Contacts';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Projects from '../components/Projects';
+import Skillset from '../components/Skillset';
 
 import { useRef } from 'react';
 
