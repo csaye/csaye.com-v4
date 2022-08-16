@@ -1,6 +1,6 @@
-import { icons } from '../data/icons.js';
+import { icons } from '../util/icons';
 
-import styles from '../styles/components/Icon.module.css';
+import styles from '../styles/components/Icon.module.scss';
 
 export default function Icon(props) {
   const { icon } = props;

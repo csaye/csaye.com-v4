@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import styles from '../styles/components/Header.module.css';
+import styles from '../styles/components/Header.module.scss';
 
 export default function Header(props) {
   const { scrollTo } = props;

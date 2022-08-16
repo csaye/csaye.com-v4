@@ -1,6 +1,6 @@
-import { contacts } from '../data/contacts.js';
+import { contacts } from '../util/contacts';
 
-import styles from '../styles/components/Contacts.module.css';
+import styles from '../styles/components/Contacts.module.scss';
 
 export default function Contacts() {
   return (

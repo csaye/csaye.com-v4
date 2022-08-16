@@ -1,9 +1,9 @@
-import Project from './Project.js';
+import Project from './Project';
 
-import { projects } from '../data/projects.js';
 import { useState } from 'react';
+import { projects } from '../util/projects';
 
-import styles from '../styles/components/Projects.module.css';
+import styles from '../styles/components/Projects.module.scss';
 
 const defaultTypes = ['game', 'web', 'other'];
 
@@ -30,8 +30,8 @@ export default function Projects(props) {
   }
 
   const filteredProjects = projects
-  .filter(project => featured ? project.featured : true)
-  .filter(project => types.includes(project.type));
+    .filter(project => featured ? project.featured : true)
+    .filter(project => types.includes(project.type));
 
   return (
     <div className={styles.container}>
@@ -80,10 +80,10 @@ export default function Projects(props) {
         <div className={styles.projects}>
           {
             filteredProjects
-            .sort(sortProjects)
-            .map((project, i) =>
-              <Project {...project} key={i} />
-            )
+              .sort(sortProjects)
+              .map((project, i) =>
+                <Project {...project} key={i} />
+              )
           }
         </div>
       </div>

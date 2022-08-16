@@ -1,8 +1,8 @@
 import Tooltip from '@material-ui/core/Tooltip';
 
-import { icons } from '../data/icons.js';
+import { icons } from '../util/icons';
 
-import styles from '../styles/components/IconSmall.module.css';
+import styles from '../styles/components/IconSmall.module.scss';
 
 export default function IconSmall(props) {
   const { icon } = props;

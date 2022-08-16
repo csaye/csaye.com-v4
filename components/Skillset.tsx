@@ -1,8 +1,8 @@
-import Icon from './Icon.js';
+import Icon from './Icon';
 
-import { skillset } from '../data/skillset.js';
+import { skillset } from '../util/skillset';
 
-import styles from '../styles/components/Skillset.module.css';
+import styles from '../styles/components/Skillset.module.scss';
 
 export default function Skillset(props) {
   const { skillsetRef } = props;

@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import IconSmall from './IconSmall.js';
+import IconSmall from './IconSmall';
 
-import styles from '../styles/components/Project.module.css';
+import styles from '../styles/components/Project.module.scss';
 
 export default function Project(props) {
   const {
@@ -33,7 +33,7 @@ export default function Project(props) {
           />
         </div>
       </a>
-      <h1 style={ fontSize ? { fontSize } : null }>{name}</h1>
+      <h1 style={fontSize ? { fontSize } : null}>{name}</h1>
       <p>{description}</p>
       <div className={styles.buttonsdiv}>
         <div className={styles.buttons}>
