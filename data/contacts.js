@@ -22,7 +22,7 @@ export const contacts = [
   {
     icon: <i className="fab fa-twitter icon-blue" />,
     text: "Twitter",
-    link: "https://twitter.com/csaye_"
+    link: "https://twitter.com/CooperComputer"
   },
   {
     icon: <i className="fab fa-itch-io icon-red" />,

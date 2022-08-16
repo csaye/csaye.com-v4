@@ -30,7 +30,7 @@ export default function App(props) {
         <meta property="og:image" content={image} />
         {/* twitter */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@csaye_" />
+        <meta name="twitter:site" content="@CooperComputer" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />

@@ -54,7 +54,8 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 342
+    commits: 342,
+    featured: true
   },
   {
     name: "Codetrain",
@@ -82,7 +83,7 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 561,
+    commits: 677,
     featured: true
   },
   {
@@ -184,7 +185,8 @@ export const projects = [
       "Atom"
     ],
     type: "other",
-    commits: 52
+    commits: 52,
+    featured: true
   },
   {
     name: "GameScript",
@@ -237,7 +239,8 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 54
+    commits: 54,
+    featured: true
   },
   {
     name: "MapMake",
@@ -263,7 +266,8 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 48
+    commits: 48,
+    featured: true
   },
   {
     name: "MonoBuild",
@@ -515,7 +519,8 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 71
+    commits: 71,
+    featured: true
   },
   {
     name: "Python Highlights",
@@ -606,7 +611,8 @@ export const projects = [
       "Atom"
     ],
     type: "web",
-    commits: 82
+    commits: 82,
+    featured: true
   },
   {
     name: "Playlist Bot",
@@ -712,7 +718,8 @@ export const projects = [
       "JavaScript"
     ],
     type: "other",
-    commits: 63
+    commits: 63,
+    featured: true
   },
   {
     name: "Jamming",
@@ -787,7 +794,8 @@ export const projects = [
       "VSCode"
     ],
     type: "other",
-    commits: 29
+    commits: 29,
+    featured: true
   },
   {
     name: "Sorting Visualization",
@@ -811,7 +819,8 @@ export const projects = [
       "VSCode"
     ],
     type: "game",
-    commits: 39
+    commits: 39,
+    featured: true
   },
   {
     name: "Chess",
