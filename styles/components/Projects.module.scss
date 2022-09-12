@@ -1,55 +1,59 @@
-.container > h1 {
-  text-align: center;
-  font-weight: 900;
-  font-size: 64px;
-  margin: 30px 0 20px 0;
-}
+.container {
+  >h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    margin: 30px 0 20px 0;
+  }
 
-.content {
-  margin: 0 32px;
-}
+  .content {
+    margin: 0 32px;
+  }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1400px;
-  margin: 0 auto;
-}
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 
-.options {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 12px;
-}
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
 
-.projectcount {
-  margin-left: 8px;
-}
+  .projectcount {
+    margin-left: 8px;
+  }
 
-.featured {
-  margin-right: 8px;
-}
+  .featured {
+    margin-right: 8px;
+  }
 
-.featured, .featured input {
-  cursor: pointer;
-}
+  .featured,
+  .featured input {
+    cursor: pointer;
+  }
 
-.types {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
-}
+  .types {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
 
-.types label, .types input {
-  cursor: pointer;
-}
+  .types label,
+  .types input {
+    cursor: pointer;
+  }
 
-.notype {
-  color: #999;
-}
+  .notype {
+    color: #999;
+  }
 
-.options select {
-  cursor: pointer;
+  .options select {
+    cursor: pointer;
+  }
 }

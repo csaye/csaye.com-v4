@@ -3,76 +3,76 @@
   transform: skewY(3deg);
   margin-top: 50px;
   padding: 50px 0;
-}
 
-.container > h1 {
-  text-align: center;
-  color: var(--gray);
-  font-weight: 900;
-  font-size: 64px;
-  margin: 0 0 20px 0;
-}
+  >h1 {
+    text-align: center;
+    color: var(--gray);
+    font-weight: 900;
+    font-size: 64px;
+    margin: 0 0 20px 0;
+  }
 
-.sections {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 20px;
-}
+  .sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+  }
 
-.section {
-  width: 300px;
-  margin: 20px;
-  background: var(--gray);
-  border-radius: 30px;
-  box-shadow: 0 0 4px #999;
-  padding: 10px 0;
-  transition: 0.25s;
-  cursor: pointer;
-}
+  .section {
+    width: 300px;
+    margin: 20px;
+    background: var(--gray);
+    border-radius: 30px;
+    box-shadow: 0 0 4px #999;
+    padding: 10px 0;
+    transition: 0.25s;
+    cursor: pointer;
 
-.section:hover {
-  transform: skewY(-3deg) scale(1.1);
-  background: #fff;
-  box-shadow: 0 0 14px #999;
-}
+    &:hover {
+      transform: skewY(-3deg) scale(1.1);
+      background: #fff;
+      box-shadow: 0 0 14px #999;
+    }
 
-.section > h1 {
-  text-align: center;
-  margin: 10px 0;
-}
+    >h1 {
+      text-align: center;
+      margin: 10px 0;
+    }
 
-.section a:hover {
-  color: #2196f3;
-}
+    a:hover {
+      color: #2196f3;
+    }
+  }
 
-.subsection {
-  display: flex;
-}
+  .subsection {
+    display: flex;
 
-.subsection > .subtitle {
-  width: 50%;
-  text-align: right;
-  padding: 8px;
-  font-weight: bold;
-}
+    >.subtitle {
+      width: 50%;
+      text-align: right;
+      padding: 8px;
+      font-weight: bold;
+    }
 
-.subsection > .icons {
-  width: 50%;
-  padding-left: 5px;
-  position: relative;
-}
+    >.icons {
+      width: 50%;
+      padding-left: 5px;
+      position: relative;
 
-.subsection > .icons > div {
-  margin: 8px 0;
-}
+      >div {
+        margin: 8px 0;
+      }
 
-.subsection > .icons:after {
-  content: "";
-  background: black;
-  position: absolute;
-  bottom: 8px;
-  top: 8px;
-  left: -1px;
-  width: 2px;
+      &:after {
+        content: "";
+        background: black;
+        position: absolute;
+        bottom: 8px;
+        top: 8px;
+        left: -1px;
+        width: 2px;
+      }
+    }
+  }
 }
